@@ -1,0 +1,65 @@
+{
+  "project": "Week 3 ML Prediction System",
+  "random_state": 42,
+  "test_size": 0.2,
+  "regression": {
+    "best_model_name": "Linear Regression",
+    "metrics": [
+      {
+        "model": "Linear Regression",
+        "mae": 42.794094679599944,
+        "mse": 2900.1936284934836,
+        "rmse": 53.85344583676595,
+        "r2": 0.45260276297191904
+      },
+      {
+        "model": "Random Forest Regressor",
+        "mae": 43.81584698248068,
+        "mse": 2919.256401513235,
+        "rmse": 54.03014345264349,
+        "r2": 0.4490047586253866
+      }
+    ],
+    "feature_defaults": {
+      "age": 0.005383060374248237,
+      "sex": -0.044641636506989144,
+      "bmi": -0.007283766209687899,
+      "bp": -0.00567042229275739,
+      "s1": -0.004320865536613489,
+      "s2": -0.0038190651205350003,
+      "s3": -0.006584467611155497,
+      "s4": -0.002592261998183278,
+      "s5": -0.0019471710869220743,
+      "s6": -0.0010776975004659671
+    }
+  },
+  "classification": {
+    "best_model_name": "Logistic Regression",
+    "metrics": [
+      {
+        "model": "Logistic Regression",
+        "accuracy": 0.9649122807017544,
+        "precision": 0.9523809523809523,
+        "recall": 0.9523809523809523
+      },
+      {
+        "model": "Random Forest Classifier",
+        "accuracy": 0.9736842105263158,
+        "precision": 1.0,
+        "recall": 0.9285714285714286
+      }
+    ],
+    "feature_defaults": {
+      "mean radius": 13.37,
+      "mean texture": 18.84,
+      "mean perimeter": 86.24,
+      "mean area": 551.1,
+      "mean smoothness": 0.09587,
+      "worst radius": 14.97,
+      "worst texture": 25.41,
+      "worst perimeter": 97.66,
+      "worst area": 686.5,
+      "worst concave points": 0.09993
+    }
+  }
+}
