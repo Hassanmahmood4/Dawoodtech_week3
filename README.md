@@ -1,6 +1,12 @@
 # Week 3 ML Prediction System
 
-An end-to-end machine learning project for the Week 3 internship task. The project trains supervised ML models, evaluates performance, saves trained artifacts, and provides a Streamlit app for instant predictions.
+## Project Description
+
+This project is a complete machine learning prediction system built for the Week 3 internship task. It demonstrates the full supervised learning workflow: dataset preparation, preprocessing, model training, evaluation, model persistence, and real-time prediction through a Streamlit web app.
+
+The system includes both major supervised learning use cases. A regression workflow predicts diabetes disease progression from normalized medical indicators, while a classification workflow predicts whether a breast cancer diagnosis is benign or malignant from tumor measurement features. The goal is to show how machine learning models learn patterns from real-world data and how those models can be turned into a usable prediction application.
+
+The project is designed as a practical learning deliverable for interns. It includes reusable Python modules, a training notebook, saved model files, performance visualizations, documented metrics, and a polished app interface for custom user input.
 
 ## Project Overview
 
@@ -135,15 +141,3 @@ Current results:
 - Documentation: `README.md`
 - Performance charts: `reports/figures/`
 - Screenshots: `screenshots/`
-
-## Git Commit Plan
-
-After the project is complete, use clean logical commits:
-
-1. `chore: initialize project structure and dependencies`
-2. `feat: add dataset preparation workflow`
-3. `feat: implement model training pipelines`
-4. `feat: add model evaluation visualizations`
-5. `feat: build streamlit prediction app`
-6. `docs: add notebook and project documentation`
-7. `docs: add screenshots for final submission`
